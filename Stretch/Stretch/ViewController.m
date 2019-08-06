@@ -23,7 +23,6 @@
     UIImage *initialImage = [UIImage imageNamed:@"jiantou"];
     //拉伸图片右侧
     UIImage *rightStretchImage = [initialImage stretchableImageWithLeftCapWidth:initialImage.size.width *0.8 topCapHeight:initialImage.size.height *0.5];
-    [initialImage resizableImageWithCapInsets:<#(UIEdgeInsets)#> resizingMode:<#(UIImageResizingMode)#>]
     //拉伸后的宽度=总宽度/2+初始图片宽度/2
     CGFloat stretchWidth = (SCREEN_WIDTH-60)/2+initialImage.size.width/2;
     //获得右侧拉伸过后的图片

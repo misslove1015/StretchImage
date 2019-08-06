@@ -5,20 +5,6 @@
       "scale" : "1x"
     },
     {
-      "resizing" : {
-        "mode" : "9-part",
-        "center" : {
-          "mode" : "tile",
-          "width" : 7,
-          "height" : 9
-        },
-        "cap-insets" : {
-          "bottom" : 33,
-          "top" : 19,
-          "right" : 20,
-          "left" : 14
-        }
-      },
       "idiom" : "universal",
       "filename" : "jiantou@2x.png",
       "scale" : "2x"
